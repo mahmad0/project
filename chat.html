@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 18 Design</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">The 18 Design</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">How it Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Always Track & Analyze Your Business</h1>
+                <p>Statistics To Succeed. A better way to manage your sales, team, clients & marketing ― on a single platform. Powerful, affordable & easy.</p>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+        </section>
+        <section class="features">
+            <div class="container">
+                <h2>Building the best space for collaboration.</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Shared Cloud Libraries</h3>
+                        <p>Navigate to the Your work panel in the left sidebar. Select the library you want to share. Select the Share icon in the upper right to share the library.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Free developer handoff</h3>
+                        <p>Cloud Inspector makes it easy for developers to get the information they need to turn pixels into code - all in the browser and, most importantly, for free.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Real-time collaborative editing</h3>
+                        <p>Room Service helps you build real-time collaborative features. Add real-time data sync! Let users edit the same data at the same time.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pricing">
+            <div class="container">
+                <h2>Select a membership level</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>$49/month</h3>
+                        <p>A pay-once license, just for you</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>$99/month</h3>
+                        <p>Pro account, just for you</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>$299/month</h3>
+                        <p>A subscription for the whole team</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search...">
+            <button id="search-button">Search</button>
+          </div>
+        <section class="faq">
+            <div class="container">
+                <h2>Common Questions</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>How much does a Teams subscription cost?</h3>
+                        <p>Contributors are members of your team who need access to use the Mac app to create and edit Sketch documents. These prices don't include sales tax, which may still apply. Head over to our pricing page to get full details.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Do I still need to purchase licenses for the Mac app?</h3>
+                        <p>No, you don't need to purchase licenses for the Mac app.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2022 The 18 Design. All rights reserved.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="#" class="text-muted"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-muted"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-muted"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-muted"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        const searchInput = document.getElementById('search-input');
+        const searchButton = document.getElementById('search-button');
+      
+        searchButton.addEventListener('click', () => {
+          const searchTerm = searchInput.value;
+          // Do something with the search term, such as send a request to a server
+          // or filter a list of items on the page
+        });
+      </script>
+</body>
+</html>

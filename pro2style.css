@@ -1,0 +1,18 @@
+*{
+    font-family: Neue Machina;
+}
+@font-face {
+    font-family: Neue Machina ;
+    src: url(NeueMachina-Regular.otf);
+  }
+
+  nav ul li{
+    padding: 20px;
+  }
+  footer  a{
+    text-decoration: none;
+    color: white;
+  }
+  footer ul li{
+    list-style: none;
+  }
